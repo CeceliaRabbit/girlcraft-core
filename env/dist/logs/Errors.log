@@ -1,0 +1,12 @@
+Table `creature_queststarter` has creature entry (16255) for quest 9154, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table `creature_queststarter` has creature entry (16484) for quest 9261, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table `creature_queststarter` has creature entry (16490) for quest 9264, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table `creature_queststarter` has creature entry (16493) for quest 9263, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table `creature_queststarter` has creature entry (16495) for quest 9262, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table `creature_questender` has creature entry (16484) for quest 9261, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table `creature_questender` has creature entry (16490) for quest 9264, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table `creature_questender` has creature entry (16493) for quest 9263, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table `creature_questender` has creature entry (16495) for quest 9262, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
+Table 'reference_loot_template' Entry 34024 isn't reference id and not referenced from loot, and thus useless.
+WaypointMovementGenerator::LoadPath: creature Defias Thug (GUID Full: 0xf1300000260003c0 Type: Creature Entry: 38  Low: 960) doesn't have waypoint path id: 0
+WaypointMovementGenerator::LoadPath: creature Defias Thug (GUID Full: 0xf1300000260003c0 Type: Creature Entry: 38  Low: 960) doesn't have waypoint path id: 0
