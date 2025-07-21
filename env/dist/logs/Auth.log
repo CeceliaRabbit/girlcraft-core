@@ -1,4 +1,4 @@
-AzerothCore rev. 9f5b56ac86af+ 2025-07-16 10:22:00 +0200 (master branch) (Unix, RelWithDebInfo, Static) (authserver)
+AzerothCore rev. 9ea5ed764d24+ 2025-07-17 22:24:22 -0400 (master branch) (Unix, RelWithDebInfo, Static) (authserver)
 <Ctrl-C> to stop.
 
    █████╗ ███████╗███████╗██████╗  ██████╗ ████████╗██╗  ██╗
@@ -35,5 +35,5 @@ DatabasePool 'acore_auth' opened successfully. 2 total connections running.
 Started auth database connection pool.
 Loading IP Location Database...
  
-Added realm "AzerothCore" at 127.0.0.1:8085.
+Added realm "Girlcraft" at 174.169.233.7:8085.
 Can't set process priority class, error: Permission denied
