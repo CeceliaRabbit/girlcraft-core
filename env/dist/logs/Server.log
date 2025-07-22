@@ -774,3 +774,13 @@ Last 500 diffs summary:
 |- Mean: 7ms
 |- Median: 1ms
 |- Percentiles (95, 99, max): 20ms, 22ms, 102ms
+Halting process...
+Closing down DatabasePool 'acore_characters'. Waiting for 0 queries to finish...
+Asynchronous connections on DatabasePool 'acore_characters' terminated. Proceeding with synchronous connections.
+All connections on DatabasePool 'acore_characters' closed.
+Closing down DatabasePool 'acore_world'. Waiting for 0 queries to finish...
+Asynchronous connections on DatabasePool 'acore_world' terminated. Proceeding with synchronous connections.
+All connections on DatabasePool 'acore_world' closed.
+Closing down DatabasePool 'acore_auth'. Waiting for 0 queries to finish...
+Asynchronous connections on DatabasePool 'acore_auth' terminated. Proceeding with synchronous connections.
+All connections on DatabasePool 'acore_auth' closed.
