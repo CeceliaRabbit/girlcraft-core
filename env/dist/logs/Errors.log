@@ -10,3 +10,4 @@ Table `creature_questender` has creature entry (16495) for quest 9262, but npcfl
 Table 'reference_loot_template' Entry 34024 isn't reference id and not referenced from loot, and thus useless.
 Script named 'gobject_challenge_modes' is assigned in the database, but has no code!
 WaypointMovementGenerator::LoadPath: creature Defias Thug (GUID Full: 0xf130000026000c10 Type: Creature Entry: 38  Low: 3088) doesn't have waypoint path id: 0
+WaypointMovementGenerator::LoadPath: creature Defias Thug (GUID Full: 0xf130000026000c10 Type: Creature Entry: 38  Low: 3088) doesn't have waypoint path id: 0

@@ -768,3 +768,9 @@ WORLD: World Initialized In 0 Minutes 19 Seconds
  
 AzerothCore rev. bd936d08590d+ 2025-07-21 02:43:37 +0000 (master branch) (Unix, RelWithDebInfo, Static) (worldserver-daemon) ready...
 Calendar deletion of old events.
+Guild Daily Cap reset.
+Update time diff: 102ms with 0 players online
+Last 500 diffs summary:
+|- Mean: 7ms
+|- Median: 1ms
+|- Percentiles (95, 99, max): 20ms, 22ms, 102ms
