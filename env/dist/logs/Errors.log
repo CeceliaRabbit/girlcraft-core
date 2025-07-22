@@ -8,6 +8,5 @@ Table `creature_questender` has creature entry (16490) for quest 9264, but npcfl
 Table `creature_questender` has creature entry (16493) for quest 9263, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
 Table `creature_questender` has creature entry (16495) for quest 9262, but npcflag does not include UNIT_NPC_FLAG_QUESTGIVER
 Table 'reference_loot_template' Entry 34024 isn't reference id and not referenced from loot, and thus useless.
-WaypointMovementGenerator::LoadPath: creature Defias Thug (GUID Full: 0xf130000026000e0f Type: Creature Entry: 38  Low: 3599) doesn't have waypoint path id: 0
-WaypointMovementGenerator::LoadPath: creature Defias Thug (GUID Full: 0xf130000026000e0f Type: Creature Entry: 38  Low: 3599) doesn't have waypoint path id: 0
-WaypointMovementGenerator::LoadPath: creature Eye of Dar'Khan (GUID Full: 0xf130003fc000094a Type: Creature Entry: 16320  Low: 2378) doesn't have waypoint path id: 0
+Script named 'gobject_challenge_modes' is assigned in the database, but has no code!
+WaypointMovementGenerator::LoadPath: creature Defias Thug (GUID Full: 0xf130000026000c10 Type: Creature Entry: 38  Low: 3088) doesn't have waypoint path id: 0

@@ -1,0 +1,4 @@
+--progress is a global compose flag, better use `docker compose --progress xx build ...
+Compose now can delegate build to bake for better performances
+Just set COMPOSE_BAKE=true
+failed to solve: ResourceExhausted: write /var/snap/docker/common/var-lib-docker/buildkit/containerdmeta.db: no space left on device

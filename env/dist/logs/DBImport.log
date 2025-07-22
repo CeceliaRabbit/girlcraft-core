@@ -1,4 +1,4 @@
-AzerothCore rev. 9ea5ed764d24+ 2025-07-17 22:24:22 -0400 (master branch) (Unix, RelWithDebInfo, Static) (dbimport)
+AzerothCore rev. bd936d08590d+ 2025-07-21 02:43:37 +0000 (master branch) (Unix, RelWithDebInfo, Static) (dbimport)
 <Ctrl-C> to stop.
 
    █████╗ ███████╗███████╗██████╗  ██████╗ ████████╗██╗  ██╗
@@ -59,8 +59,7 @@ Updating Character database...
 >> Character database is up-to-date! Containing 10 new and 4 archived updates.
  
 Updating World database...
->> Applying update "challenge_mode_gobject.sql" 'E176662'...
->> Applied 1 query. Containing 1141 new and 719 archived updates.
+>> World database is up-to-date! Containing 1141 new and 720 archived updates.
  
 Started database connection pool.
 Halting process...
