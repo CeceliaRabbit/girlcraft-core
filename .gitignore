@@ -12,6 +12,7 @@
 /.env*
 /apps/joiner
 /deps/deno
+/env/dist/logs/*
 
 /*.override.yml
 /*.override.yaml
