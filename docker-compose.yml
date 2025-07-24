@@ -14,14 +14,14 @@ services:
     ports:
       - ${DOCKER_DB_EXTERNAL_PORT:-3306}:3306
     environment:
-      - MYSQL_ROOT_PASSWORD="${DOCKER_DB_ROOT_PASSWORD}"
+      - MYSQL_ROOT_PASSWORD=${DOCKER_DB_ROOT_PASSWORD}
     volumes:
       - type: volume
         source: ac-database
         target: /var/lib/mysql
     restart: unless-stopped
     healthcheck:
-      test: "/usr/bin/mysql --user=root --password=$$MYSQL_ROOT_PASSWORD --execute \"SHOW DATABASES;\""
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -u root -p${DOCKER_DB_ROOT_PASSWORD}"]
       interval: 5s
       timeout: 10s
       retries: 40
@@ -76,7 +76,7 @@ services:
       AC_LOGS_DIR: "/azerothcore/env/dist/logs"
       AC_LOGIN_DATABASE_INFO: "ac-database;3306;root;${DOCKER_DB_ROOT_PASSWORD};acore_auth"
       AC_WORLD_DATABASE_INFO: "ac-database;3306;root;${DOCKER_DB_ROOT_PASSWORD};acore_world"
-      AC_CHARACTER_DATABASE_INFO: "ac-database;3306;root;${DOCKER_DB_ROOT_PASSWORD}acore_characters"
+      AC_CHARACTER_DATABASE_INFO: "ac-database;3306;root;${DOCKER_DB_ROOT_PASSWORD};acore_characters"
     ports:
       - ${DOCKER_WORLD_EXTERNAL_PORT:-8085}:8085
       - ${DOCKER_SOAP_EXTERNAL_PORT:-7878}:7878

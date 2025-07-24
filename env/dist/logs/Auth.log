@@ -1,4 +1,4 @@
-AzerothCore rev. 9ea5ed764d24+ 2025-07-17 22:24:22 -0400 (master branch) (Unix, RelWithDebInfo, Static) (authserver)
+AzerothCore rev. 807512544eb4+ 2025-07-22 16:48:09 +0000 (master branch) (Unix, RelWithDebInfo, Static) (authserver)
 <Ctrl-C> to stop.
 
    █████╗ ███████╗███████╗██████╗  ██████╗ ████████╗██╗  ██╗
@@ -25,19 +25,15 @@ AzerothCore rev. 9ea5ed764d24+ 2025-07-17 22:24:22 -0400 (master branch) (Unix, 
 > Config: Found config value 'LoginDatabaseInfo' from environment variable 'AC_LOGIN_DATABASE_INFO'.
 Opening DatabasePool 'acore_auth'. Asynchronous connections: 1, synchronous connections: 1.
 MySQL client library: 8.0.42
-MySQL server ver: 8.4.5 
+MySQL server ver: 8.4.6 
 Connected to MySQL database at ac-database
 MySQL client library: 8.0.42
-MySQL server ver: 8.4.5 
+MySQL server ver: 8.4.6 
 Connected to MySQL database at ac-database
 DatabasePool 'acore_auth' opened successfully. 2 total connections running.
  
 Started auth database connection pool.
 Loading IP Location Database...
  
-Added realm "Girlcraft" at 174.169.233.7:8085.
+Added realm "GirlCraft" at 174.169.233.7:8085.
 Can't set process priority class, error: Permission denied
-Halting process...
-Closing down DatabasePool 'acore_auth'. Waiting for 0 queries to finish...
-Asynchronous connections on DatabasePool 'acore_auth' terminated. Proceeding with synchronous connections.
-All connections on DatabasePool 'acore_auth' closed.
